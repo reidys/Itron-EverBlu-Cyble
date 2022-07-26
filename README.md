@@ -1,5 +1,5 @@
-# This Fork wasadapted from  https://github.com/neutrinus/everblu-meters
-this fork is removing the MQTT funtion
+This Fork was adapted from https://github.com/neutrinus/everblu-meters I removed the MQTT/HASS funtion
+
 # Itron-EverBlu-Cyble - Water usage
 Fetch water/gas usage data from Cyble EverBlu meters using RADIAN protocol on 433Mhz.
 
@@ -26,10 +26,10 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 1. Enable SPI in raspi-config.
 2. Install WiringPi from https://github.com/WiringPi/WiringPi/
 3. Install libmosquitto-dev: `apt install libmosquitto-dev`
-4. Set meter serial number and production date in `everblu_meters.c`, it can be found on the meter label itself:
+4. Set meter serial number and production date in `everblu_meters-Data`, it can be found on the meter label itself:
 ![Cyble Meter Label](meter_label.png)
 5. Compile the code with `make`
-6. Run `everblu_meters`, after ~2s your meter data should be on the screen and data should be pushed to MQTT.
+6. Run `everblu_meters`, after ~2s your meter data should be on the screen.
 7. Setup crontab to run it twice a day
 
 ## Troubleshooting
