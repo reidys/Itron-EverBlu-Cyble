@@ -24,8 +24,8 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 
 ## Configuration
 1. Enable SPI in raspi-config.
-    i. sudo raspi-config
-    ii. Select Interfacing Options > SPI.
+    i. sudo raspi-config.
+     ii. Select Interfacing Options > SPI.
     iii.Select Yes when prompted to enable the SPI interface.
     iv. Select Yes when prompted to automatically load the SPI kernel module.
     v.  Select Finish.
