@@ -24,12 +24,13 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 
 ## Configuration
 1. Enable SPI in raspi-config.
-    i. sudo raspi-config.
-     ii. Select Interfacing Options > SPI.
-    iii.Select Yes when prompted to enable the SPI interface.
-    iv. Select Yes when prompted to automatically load the SPI kernel module.
-    v.  Select Finish.
-    vi. Select Yes when prompted to reboot.
+sudo raspi-config.
+Select Interfacing Options > SPI.
+Select Yes when prompted to enable the SPI interface.
+Select Yes when prompted to automatically load the SPI kernel module.
+Select Finish.
+Select Yes when prompted to reboot.
+
 2. Install WiringPi from https://github.com/WiringPi/WiringPi/
 3. Install libmosquitto-dev: `apt install libmosquitto-dev`
 4. Set meter serial number and production date in `everblu_meters-Data.c`, it can be found on the meter label itself:
