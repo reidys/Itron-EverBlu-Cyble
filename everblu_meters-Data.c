@@ -26,10 +26,7 @@ void IO_init(void)
 int main(int argc, char *argv[])
 {
 	struct tmeter_data meter_data;
-	//struct mosquitto *mosq = NULL;
-	//char buff[MQTT_MSG_MAX_SIZE];
 	char meter_id[12];
-	//char mqtt_topic[64];
 
 	sprintf(meter_id, "%i_%i", METER_YEAR, METER_SERIAL);
 	
