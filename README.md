@@ -51,10 +51,6 @@ $ ./everblu_meters-Data
 ![Meter Data ](meter_Data.png)
 
 
-
-
-7. Setup crontab to run it twice a day
-
 ## Troubleshooting
 
 ### Frequency adjustment
@@ -62,7 +58,7 @@ Your transreciver module may be not calibrated correctly, please modify frequenc
 
 
 ### Business hours
-Your meter may be configured in such a way that is listens for request only during hours when data collectors work - to conserve energy. If you are unable to communicate with the meter, please try again during business hours (8-16).
+Your meter may be configured in such a way that is listens for request only during hours when data collectors work - to conserve energy. If you are unable to communicate with the meter, please try again during business hours (6-18).
 
 ### Serial number starting with 0
 Please ignore the trailing 0, provide serial in configuration whthout it.
