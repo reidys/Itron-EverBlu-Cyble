@@ -8,7 +8,7 @@ Meters supported:
 
 
 ## Hardware
-![Raspberry Pi Zero with CC1101](board.jpg)
+![Raspberry Pi Zero with CC1101](RP4-CC1101.png)
 The project runs on Raspberry Pi with an RF transreciver (CC1101). 
 
 ### Connections (rpi to CC1101):
