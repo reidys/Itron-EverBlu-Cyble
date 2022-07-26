@@ -48,7 +48,7 @@ $ ./everblu_meters-Data
 - time_start: 6
 - time_end: 18
 
-
+![Meter Data ](meter_Data.png)
 
 
 
