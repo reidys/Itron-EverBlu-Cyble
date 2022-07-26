@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
 	IO_init();
 	meter_data = get_meter_data();
-	//liters
+	//liters - Bill in metercube(didvie /1000 * per unit rate )
 	printf("Liters: %i\n", meter_data.liters);
 	//reads_counter - time the meter has been read
 	printf("reads_counter: %i\n", meter_data.reads_counter);
