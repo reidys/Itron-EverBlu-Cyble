@@ -688,3 +688,4 @@ struct tmeter_data get_meter_data(void)
 	}
 	return sdata;
 }
+
