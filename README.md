@@ -39,7 +39,7 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 ![Cyble Meter Label](EverBlu-Cyble-Meter.png)
 
 5. Compile the code with `make`
-6. Run `everblu_meters`, after ~2s your meter data should be on the screen.
+6. Run `everblu_meters-Data`, after ~2s your meter data should be on the screen.
 
 $ ./everblu_meters-Data
 - Liters: 1711041
