@@ -1,7 +1,7 @@
-# everblu-meters - Water usage data for Home Assistant
-Fetch water/gas usage data from Cyble EverBlu meters using RADIAN protocol on 433Mhz. Intergrated with Home Assistant via MQTT. 
-
-Note: HASS autodiscovery is still missing, during development.
+# This Fork wasadapted from  https://github.com/neutrinus/everblu-meters
+this fork is removing the MQTT funtion
+# Itron-EverBlu-Cyble - Water usage
+Fetch water/gas usage data from Cyble EverBlu meters using RADIAN protocol on 433Mhz.
 
 Meters supported:
 - Itron EverBlu Cyble Enhanced
@@ -28,7 +28,6 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 3. Install libmosquitto-dev: `apt install libmosquitto-dev`
 4. Set meter serial number and production date in `everblu_meters.c`, it can be found on the meter label itself:
 ![Cyble Meter Label](meter_label.png)
-5. Configure MQTT connection details in `everblu_meters.c`: `MQTT_HOST`, `MQTT_USER`, 'MQTT_PASS`
 5. Compile the code with `make`
 6. Run `everblu_meters`, after ~2s your meter data should be on the screen and data should be pushed to MQTT.
 7. Setup crontab to run it twice a day
