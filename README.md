@@ -23,13 +23,13 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 
 
 ## Configuration
-1. Enable SPI in raspi-config.
-sudo raspi-config.
-Select Interfacing Options > SPI.
-Select Yes when prompted to enable the SPI interface.
-Select Yes when prompted to automatically load the SPI kernel module.
-Select Finish.
-Select Yes when prompted to reboot.
+1. Enable SPI in raspi-config
+- sudo raspi-config
+- Select Interfacing Options > SPI
+- Select Yes when prompted to enable the SPI interface
+- Select Yes when prompted to automatically load the SPI kernel module
+- Select Finish
+- Select Yes when prompted to reboot
 
 2. Install WiringPi from https://github.com/WiringPi/WiringPi/
 3. Install libmosquitto-dev: `apt install libmosquitto-dev`
