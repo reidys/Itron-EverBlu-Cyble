@@ -24,9 +24,16 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 
 ## Configuration
 1. Enable SPI in raspi-config.
+    i. sudo raspi-config
+    ii. Select Interfacing Options > SPI.
+    iii.Select Yes when prompted to enable the SPI interface.
+    iv. Select Yes when prompted to automatically load the SPI kernel module.
+    v.  Select Finish.
+    vi. Select Yes when prompted to reboot.
 2. Install WiringPi from https://github.com/WiringPi/WiringPi/
 3. Install libmosquitto-dev: `apt install libmosquitto-dev`
-4. Set meter serial number and production date in `everblu_meters-Data`, it can be found on the meter label itself:
+4. Set meter serial number and production date in `everblu_meters-Data.c`, it can be found on the meter label itself:
+    i. nano everblu_meters-Data.c 
 ![Cyble Meter Label](EverBlu-Cyble-Meter.png)
 5. Compile the code with `make`
 6. Run `everblu_meters`, after ~2s your meter data should be on the screen.
