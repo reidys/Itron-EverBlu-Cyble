@@ -59,6 +59,3 @@ typedef unsigned char T_BOOL;       //1 octets
 #include "utils.c"
 #include "wiringPi.h"
 #include "wiringPiSPI.h"
-
-
-
