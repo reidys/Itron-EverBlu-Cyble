@@ -40,6 +40,19 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 
 5. Compile the code with `make`
 6. Run `everblu_meters`, after ~2s your meter data should be on the screen.
+
+$ ./everblu_meters-Data
+- Liters: 1711041
+- reads_counter: 73
+- battery_left: 92
+- time_start: 6
+- time_end: 18
+
+
+
+
+
+
 7. Setup crontab to run it twice a day
 
 ## Troubleshooting
