@@ -36,15 +36,15 @@ int main(int argc, char *argv[])
 
 	IO_init();
 	meter_data = get_meter_data();
-
+	//liters
 	printf("Liters: %i\n", meter_data.liters);
-
+	//reads_counter - time the meter has been read
 	printf("reads_counter: %i\n", meter_data.reads_counter);
-
+	//battery_left - time in months
 	printf("battery_left: %i\n", meter_data.battery_left);
-
+	//time_start - wake time of meter
         printf("time_start: %i\n", meter_data.time_start);
-
+	//time_end - Sleep time of meter
         printf("time_end: %i\n", meter_data.time_end);
 
 	return 0;
