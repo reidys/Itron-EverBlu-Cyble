@@ -1,8 +1,8 @@
  /*  the radian_trx SW shall not be distributed  nor used for commercial product*/
  /*  it is exposed just to demonstrate CC1101 capability to reader water meter indexes */
 
-#define METER_YEAR              16
-#define METER_SERIAL            291067
+#define METER_YEAR              ##
+#define METER_SERIAL            ######
 
 #include <stdio.h>
 #include <stdlib.h>
