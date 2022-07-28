@@ -1,4 +1,5 @@
-This Fork was adapted from https://github.com/neutrinus/everblu-meters I removed the MQTT/HASS funtion
+This Fork was adapted from https://github.com/neutrinus/everblu-meters I removed the MQTT/HASS functionality 
+this will just display the data to the terminal. 
 
 # Itron-EverBlu-Cyble - Water usage
 Fetch water/gas usage data from Cyble EverBlu meters using RADIAN protocol on 433Mhz.
