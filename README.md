@@ -15,7 +15,7 @@ The project runs on Raspberry Pi with an RF transreciver (CC1101).
 ### Connections (rpi to CC1101):
 - pin 1 (3V3) to pin 2 (VCC)
 - pin 6 (GND) to pin 1 (GND)
-- pin 11 (GPIO0	) to pin 3 (GDO0)
+- pin 11 (GPIO17) to pin 3 (GDO0)
 - pin 24 (CE0) to pin 4 (CSN)
 - pin 23 (SCLK) to pin 5 (SCK)
 - pin 19 (MOSI) to pin 6 (MOSI)
